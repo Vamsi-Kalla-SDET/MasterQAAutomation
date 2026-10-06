@@ -19,6 +19,11 @@ test('SauceDemo Login with valid credentials', async ({ page }) => {
 
   // Verify Products page
   await expect(page.locator('.title')).toHaveText('Products');
-});
 
+//   console.log(await page.evaluate(() => ({
+//     innerWidth: window.innerWidth,
+//     innerHeight: window.innerHeight
+// })));
+
+});
 
