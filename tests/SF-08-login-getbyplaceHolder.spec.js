@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("sauceDemo login with roletype", async ({ page }) => {
+test("salesforce form by getbyPH", async ({ page }) => {
   await page.goto(
     "https://testautomationpractice.blogspot.com/p/playwrightpractice.html",
   );
