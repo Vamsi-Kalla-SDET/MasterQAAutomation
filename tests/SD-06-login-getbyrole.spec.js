@@ -10,3 +10,4 @@ test("sauceDemo login with roletype", async ({ page }) => {
 
   await page.close();
 });
+
