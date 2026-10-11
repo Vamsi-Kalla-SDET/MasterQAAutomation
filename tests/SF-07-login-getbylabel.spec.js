@@ -1,9 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test("salesforce form by getbylabel", async ({ page }) => {
-  await page.goto(
-    "https://www.salesforce.com/products/demos/interactive-portfolio/?d=pb",
-  );
+  await page.goto("https://www.salesforce.com/uk/sales/free-trial/ee/");
   // await page.pause();
   await page.getByLabel("First name").fill("SitaRam");
   await page.getByLabel("Last name").fill("Raghuvamsam");
@@ -12,7 +10,7 @@ test("salesforce form by getbylabel", async ({ page }) => {
   await page.getByLabel("Email").fill("sitaram@informatica.com");
 
   await expect(page).toHaveURL(
-    "https://www.salesforce.com/products/demos/interactive-portfolio/?d=pb",
+    "https://www.salesforce.com/uk/sales/free-trial/ee/",
   );
 
   await page.close();
