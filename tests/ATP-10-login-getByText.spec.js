@@ -5,7 +5,7 @@ test("Verify by text", async ({ page }) => {
     "https://testautomationpractice.blogspot.com/p/playwrightpractice.html",
   );
   // await page.pause();
-  await page.getByTitle('')
+  await page.getByText('Automation Testing Practice');
 
   await expect(page).toHaveURL(
     "https://testautomationpractice.blogspot.com/p/playwrightpractice.html",
