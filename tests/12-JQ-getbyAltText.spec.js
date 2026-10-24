@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("Verify image text", async ({ page }) => {
+test("Verify alttext", async ({ page }) => {
   await page.goto("https://www.bing.com/");
   // await page.pause();
 

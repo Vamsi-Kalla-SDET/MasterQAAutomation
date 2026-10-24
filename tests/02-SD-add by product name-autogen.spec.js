@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('Add product to cart from proclduct list', async ({ page }) => {
+test('Add product to cart from product list', async ({ page }) => {
 
     // Login
     await page.goto('https://www.saucedemo.com/');

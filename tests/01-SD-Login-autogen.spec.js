@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('SauceDemo Login with valid credentials', async ({ page }) => {
+test('SauceDemo autogen code', async ({ page }) => {
 
   // Open SauceDemo
   await page.goto('https://www.saucedemo.com/');

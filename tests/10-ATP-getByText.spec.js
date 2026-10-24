@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("Verify by text", async ({ page }) => {
+test("Verify by getbytext", async ({ page }) => {
   await page.goto(
     "https://testautomationpractice.blogspot.com/p/playwrightpractice.html",
   );
