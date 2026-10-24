@@ -5,7 +5,7 @@ test("Verify image text", async ({ page }) => {
   // await page.pause();
 
 
-  await page.getByAltText('© India Today').first().click();
+  await page.getByAltText('© NDTV Sports').first().click(); // based on the image for alttext value the locator will work. else fail.
 
   await page.close();
 });
